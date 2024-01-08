@@ -37,11 +37,17 @@ aside {
     background-color: lightblue;  
 }
 
+form {
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+}
+
 
 footer {
-    color: darkblue;
     text-align: center;
-    background-color: lightblue;
+    color: lightblue;
+    background-color: darkblue;
 }
 
 

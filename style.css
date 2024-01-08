@@ -1,7 +1,6 @@
 /* Universal Style Selectors */
 * {
     margin: 0;
-    background-color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -9,35 +8,40 @@
 
 header {
     text-align: left;
-    color: darkblue;
+    color: lightblue;
+    background-color: darkblue;
     padding: 10px;
-    border: 2px solid darkblue;
-    border-radius: 25px;
 }
 
 nav {
     color: white;
+    background-color: lightblue;
     text-align: right;
     display: inline;
 }
 
 main {
     color: white;
+    background-color: lightblue;
     text-align: center;
 }
 
 section {
     color: white;
+    background-color: lightblue;
     text-align: center;
 }
 
-aside {
 
+aside {
+    background-color: lightblue;  
 }
+
 
 footer {
     color: darkblue;
     text-align: center;
+    background-color: lightblue;
 }
 
 

@@ -9,7 +9,7 @@
 /* Element Selectors */
 
 header {
-    text-align: center;
+    text-align: left;
 }
 
 nav {
@@ -17,6 +17,10 @@ nav {
 }
 
 main {
+    text-align: center;
+}
+
+section {
     text-align: center;
 }
 

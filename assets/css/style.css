@@ -1,0 +1,49 @@
+:root {
+    --banana: yellow
+}
+
+/* Universal Style Selectors */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    height: 250px;
+    width: 250px;
+
+}
+
+main {
+
+}
+
+.AboutMe{
+    
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: var(--banana);
+    }
+}
+

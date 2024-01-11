@@ -8,6 +8,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    background-color: lightblue;
 }
 
 header {
@@ -18,7 +20,7 @@ header {
     padding: 20px;
 }
 
-footer {
+footer {    
     text-align: center;
     padding: 20px;
 }
@@ -29,6 +31,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .hero img {
@@ -69,18 +72,15 @@ footer {
 
 @media screen and (max-width: 425px) {
     body{
-    
+        color: darkgreen;
+        background: lightgreen;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     body{
-    
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    body{
+        color: orange;
+        background: lightblue;
     
     }
 }

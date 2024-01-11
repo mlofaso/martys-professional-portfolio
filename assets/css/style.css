@@ -18,11 +18,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 footer {    
     text-align: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 /* Class Selectors */ 
@@ -32,6 +34,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 .hero img {
@@ -45,6 +48,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 .applications {
@@ -52,6 +56,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 .contact {
@@ -60,13 +65,10 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 20px;
+    border-bottom: 5px solid darkblue
 }
 
 /* ID Selectors*/ 
-
-#firstapplication {
-
-}
 
 /* Media Queries */ 
 
@@ -74,6 +76,7 @@ footer {
     body{
         color: darkgreen;
         background: lightgreen;
+        border-bottom: 5px solid darkgreen;
     }
 }
 

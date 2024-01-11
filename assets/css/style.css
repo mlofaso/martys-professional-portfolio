@@ -4,9 +4,10 @@
     padding: 0;
 }
 
+/* Element Selectors */ 
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 header {
@@ -16,6 +17,13 @@ header {
     align-items: center;
     padding: 20px;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Class Selectors */ 
 
 .hero {
     display: flex;
@@ -28,17 +36,51 @@ header {
     width: 250px;
 }
 
-main {
+.aboutme {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.applications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ID Selectors*/ 
+
+#firstapplication {
 
 }
 
-.AboutMe{
+/* Media Queries */ 
+
+@media screen and (max-width: 425px) {
+    body{
     
+    }
 }
 
 @media screen and (max-width: 768px) {
     body{
-        background-color:
+    
     }
 }
 
+@media screen and (max-width: 1024px) {
+    body{
+    
+    }
+}

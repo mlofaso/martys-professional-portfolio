@@ -1,7 +1,3 @@
-:root {
-    --banana: yellow
-}
-
 /* Universal Style Selectors */
 * {
     margin: 0;
@@ -42,7 +38,7 @@ main {
 
 @media screen and (max-width: 768px) {
     body{
-        background-color: var(--banana);
+        background-color:
     }
 }
 

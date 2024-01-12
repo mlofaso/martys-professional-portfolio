@@ -42,7 +42,7 @@ footer {
     width: 250px;
 }
 
-.aboutme {
+.about-me {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -59,16 +59,25 @@ footer {
     border-bottom: 5px solid darkblue
 }
 
-.contact {
+.firstapplications {
+    height: 125%;
+    width: 125%;
+}
+
+.contact h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact ul {
+    list-style: none;
     text-align: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
     padding: 20px;
     border-bottom: 5px solid darkblue
 }
-
-/* ID Selectors*/ 
 
 /* Media Queries */ 
 
